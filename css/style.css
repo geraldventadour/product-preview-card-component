@@ -148,6 +148,11 @@ p {
   line-height: 1.64;
 }
 
+.price {
+  display: flex;
+  align-items: center;
+}
+
 span {
   color: var(--color-dark-cyan);
 }
