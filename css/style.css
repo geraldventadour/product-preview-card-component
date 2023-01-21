@@ -85,5 +85,62 @@ select {
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: var(--color-cream);
-   
+    font-size: .875rem;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  padding-inline: 1rem;
+  max-width: 40rem;
+}
+
+picture,.description {
+  flex: 1 1 18.75rem;
+}
+
+.description {
+  padding: 1.5rem;
+  background-color: var(--color-white);
+}
+
+a,p,s {
+  color: var(--color-dark-grayish-blue);
+}
+
+h1,span {
+  font-family: "Fraunces",sans-serif;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+a.category {
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.42em;
+  font-size: .75rem;
+  line-height: 1.22;
+}
+
+h1 {
+  color: var(--color-very-dark-blue);
+}
+
+p {
+  
+  line-height: 1.64;
+}
+
+span {
+  color: var(--color-dark-cyan);
+}
+
+button {
+  color: var(--color-white);
+  background-color: var(--color-dark-cyan);
+  border: transparent;
+  border-radius: 8px;
+  padding: 1em;
 }
